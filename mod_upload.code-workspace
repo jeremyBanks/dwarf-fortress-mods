@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../data/installed_mods"
+		},
+		{
+			"path": "../../data/vanilla"
+		}
+	],
+	"settings": {}
+}

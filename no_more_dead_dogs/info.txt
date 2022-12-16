@@ -1,14 +1,19 @@
 [ID:no_more_dead_dogs]
-[NUMERIC_VERSION:13]
-[DISPLAYED_VERSION:0.1]
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:13]
-[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:0.1]
-[AUTHOR:Jeremy Banks]
-[NAME:No More Dead Dogs (or Other Pets)]
-[DESCRIPTION:No More Dead Dogs (or Other Pets) prevents dogs and other tamable creatures from dying of natural causes such as starvation, dehydration, aging, drowning, or infection. They may still succumb to traumatic injuries and other incidents.]
+[STEAM_FILE_ID:2901970561]
 
+[NUMERIC_VERSION:14]
+[DISPLAYED_VERSION:0.2]
+
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:0]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:0]
+
+[AUTHOR:Jeremy Banks]
+
+[NAME:No More Dead Dogs (or Other Pets)]
 [STEAM_TITLE:No More Dead Dogs]
+
+[DESCRIPTION:No More Dead Dogs (or Other Pets) prevents dogs, cats, and cavies from dying of natural causes such as starvation, dehydration, aging, drowning, or infection. They may still succumb to traumatic injuries and other incidents. This does not include War Dogs or Hunting Dogs. This does not require the animal to actually be assigned as a pet.]
+[STEAM_DESCRIPTION:No More Dead Dogs (or Other Pets) prevents dogs, cats, and cavies from dying of natural causes such as starvation, dehydration, aging, drowning, or infection. They may still succumb to traumatic injuries and other incidents. This does not include War Dogs or Hunting Dogs. This does not require the animal to actually be assigned as a pet.]
+
 [STEAM_TAG:mod]
 [STEAM_TAG:pets]
-
-[STEAM_FILE_ID:2901970561]
