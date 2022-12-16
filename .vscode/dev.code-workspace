@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../",
+            "name": "🔧 dev"
+		},
+		{
+			"path": "../../../data/vanilla",
+            "name": "🪨 core"
+		},
+		{
+			"path": "../../../data/installed_mods",
+            "name": "🧰 added"
+		},
+	]
+}
