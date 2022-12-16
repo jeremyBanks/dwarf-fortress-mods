@@ -2,15 +2,25 @@
 	"folders": [
 		{
 			"path": "../",
-            "name": "🔧 dev"
+			"name": "🔧 developing"
 		},
 		{
 			"path": "../../../data/vanilla",
-            "name": "🪨 core"
+			"name": "🪨 built-in"
 		},
 		{
 			"path": "../../../data/installed_mods",
-            "name": "🧰 added"
+			"name": "🧰 installed"
 		},
-	]
+		{
+			"path": "../..",
+			"name": "💾 downloaded"
+		}
+	],
+	"settings": {
+		"editor.wordWrap": "bounded",
+		"editor.wordWrapColumn": 80,
+		"editor.wrappingIndent": "indent",
+		"workbench.colorTheme": "Kimbie Dark"
+	}
 }
