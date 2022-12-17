@@ -1,0 +1,19 @@
+[ID:guinea_pigs]
+
+[NUMERIC_VERSION:1]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
+
+[DISPLAYED_VERSION:v0.0.1]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:v0.0.1]
+[STEAM_CHANGELOG:v0.0.1]
+
+[AUTHOR:Jeremy Banks]
+
+[NAME:Guinea Pigs]
+[STEAM_TITLE:Guinea Pigs]
+
+[DESCRIPTION:This mod renames "cavies" to "guinea pigs", in case that's the name you prefer. (These are both common names for the same species of animal.)]
+[STEAM_DESCRIPTION:This mod renames "cavies" to "guinea pigs", in case that's the name you prefer. (These are both common names for the same species of animal.)]
+
+[STEAM_TAG:mod]
+[STEAM_TAG:pets]

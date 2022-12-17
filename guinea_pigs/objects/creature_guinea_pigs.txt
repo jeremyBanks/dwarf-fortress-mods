@@ -1,0 +1,17 @@
+creature_2901970561
+
+[OBJECT:CREATURE]
+
+[SELECT_CREATURE:CAVY]
+	[CV_REMOVE_TAG:NAME]
+	[CV_REMOVE_TAG:CASTE_NAME]
+	[CV_REMOVE_TAG:GENERAL_CHILD_NAME]
+	[CV_ADD_TAG:NAME:guinea pig:guinea pigs:cavy]
+	[CV_ADD_TAG:CASTE_NAME:guinea pig:guinea pigs:cavy]
+    [CV_ADD_TAG:GENERAL_CHILD_NAME:guinea pig pup:guinea pig pups]
+    [CV_ADD_TAG:SELECT_CASTE:FEMALE]
+        [CV_ADD_TAG:CASTE_NAME:guinea pig sow:guinea pig sows:cavy sow]
+    [CV_ADD_TAG:SELECT_CASTE:MALE]
+        [CV_ADD_TAG:CASTE_NAME:guinea pig boar:guinea pig boars:cavy boar]
+    [APPLY_CURRENT_CREATURE_VARIATION]
+
