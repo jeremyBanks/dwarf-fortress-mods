@@ -4,15 +4,11 @@ clear -x
 
 taskkill.exe /im "Dwarf Fortress.exe" /t /f || echo "not running"
 
-pushd ../
-    rm -rfv ./2901970561\ \(*\) ./no_more_dead_dogs
-popd
+rm -rfv ../2901970561\ \(1\)
 
-pushd ../../data/installed_mods/
-    rm -rfv ./2901970561\ \(*\) ./no_more_dead_dogs
-popd
+rm -rfv ../../data/installed_mods/*
 
-cp -rv ./no_more_dead_dogs ../
+cp -rv ./no_more_dead_dogs ../2901970561\ \(1\)
 
 pushd ../../
     rm -rf gamelog.txt errorlog.txt stdout.txt stderr.txt
