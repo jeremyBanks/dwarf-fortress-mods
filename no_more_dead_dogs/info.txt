@@ -2,10 +2,11 @@
 [STEAM_FILE_ID:2901970561]
 
 [NUMERIC_VERSION:10000]
-[DISPLAYED_VERSION:v1]
-
 [EARLIEST_COMPATIBLE_NUMERIC_VERSION:10000]
+
+[DISPLAYED_VERSION:v1]
 [EARLIEST_COMPATIBLE_DISPLAYED_VERSION:v1]
+[STEAM_CHANGELOG:v1]
 
 [AUTHOR:Jeremy Banks]
 
@@ -13,7 +14,7 @@
 [STEAM_TITLE:No More Dead Dogs (or Other Pets)]
 
 [DESCRIPTION:No More Dead Dogs prevents dogs, cats, and guinea pigs from dying of starvation, dehydration, aging, drowning, or infection. To avoid overpopulation, they will no longer produce any offspring. They may still succumb to injuries and other incidents.]
-[STEAM_DESCRIPTION:No More Dead Dogs (or Other Pets) prevents dogs, cats, and guinea pigs from dying of starvation, dehydration, aging, drowning, or infection. To avoid overpopulation, they will no longer produce any offspring. They may still succumb to injuries and other incidents.]
+[STEAM_DESCRIPTION:No More Dead Dogs prevents dogs, cats, and guinea pigs from dying of starvation, dehydration, aging, drowning, or infection. To avoid overpopulation, they will no longer produce any offspring. They may still succumb to injuries and other incidents.]
 
 [STEAM_TAG:mod]
 [STEAM_TAG:pets]
