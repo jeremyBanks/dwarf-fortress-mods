@@ -1,20 +1,19 @@
 [ID:no_more_dead_dogs]
 [STEAM_FILE_ID:2901970561]
 
-[NUMERIC_VERSION:105]
-[DISPLAYED_VERSION:INCOMPLETE 0.1.5]
+[NUMERIC_VERSION:117]
+[DISPLAYED_VERSION:0.1.17]
 
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:105]
-[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:INCOMPLETE 0.1.5]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:117]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:0.1.17]
 
 [AUTHOR:Jeremy Banks]
 
 [NAME:No More Dead Dogs]
 [STEAM_TITLE:No More Dead Dogs (or Other Pets)]
 
-[DESCRIPTION:No More Dead Dogs prevents dogs, cats, and cavies from dying of natural causes such as starvation, dehydration, aging, drowning, or infection. They may still succumb to traumatic injuries and other incidents.]
-[STEAM_DESCRIPTION:No More Dead Dogs (or Other Pets) prevents dogs, cats, and cavies from dying of natural causes such as starvation, dehydration, aging, drowning, or infection. They may still succumb to traumatic injuries and other incidents.]
+[DESCRIPTION:No More Dead Dogs prevents dogs, cats, and cavies from dying of natural causes such as starvation, dehydration, aging, drowning, or infection. They may still succumb to injuries and incidents.]
+[STEAM_DESCRIPTION:No More Dead Dogs (or Other Pets) prevents dogs, cats, and cavies from dying of natural causes such as starvation, dehydration, aging, drowning, or infection. They may still succumb to injuries and incidents.]
 
 [STEAM_TAG:mod]
 [STEAM_TAG:pets]
-    
