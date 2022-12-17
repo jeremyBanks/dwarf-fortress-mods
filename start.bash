@@ -1,14 +1,28 @@
 #!/usr/bin/env bash
-set -xeuo pipefail; shopt -s inherit_errexit  compat"${BASH_COMPAT=42}"
+set -vxeuo pipefail; shopt -s inherit_errexit  compat"${BASH_COMPAT=42}"
 clear -x
+
+git status
+git add .
+git add --all
+git commit --no-edit --allow-empty-message --all || echo "nothing to commit"
+git status
 
 taskkill.exe /im "Dwarf Fortress.exe" /t /f || echo "not running"
 
-rm -rfv ../2901970561\ \(1\)
+declare version="$(($(cat version.txt) + 1))"
+echo "$version" > version.txt
+
+rm -rfv ../2901970561\ \(*\)
+rm -rfv ../2903102268\ \(*\)
+
+sed -i 's/VERSION:.*$/VERSION:'"$version"']/g' ./*/info.txt
+sed -i 's/STEAM_CHANGELOG:.*$/STEAM_CHANGELOG:v'"$version"']/g' ./*/info.txt
 
 rm -rfv ../../data/installed_mods/*
 
-cp -rv ./no_more_dead_dogs ../2901970561\ \(1\)
+cp -rv ./no_more_dead_dogs ../2901970561\ \($version\)
+cp -rv ./guinea_pigs ../2903102268\ \($version\)
 
 pushd ../../
     rm -rf gamelog.txt errorlog.txt stdout.txt stderr.txt
