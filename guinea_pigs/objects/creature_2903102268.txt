@@ -14,4 +14,3 @@ creature_2903102268
     [CV_ADD_TAG:SELECT_CASTE:MALE]
         [CV_ADD_TAG:CASTE_NAME:guinea pig boar:guinea pig boars:cavy boar]
     [APPLY_CURRENT_CREATURE_VARIATION]
-
