@@ -18,7 +18,7 @@ version_path.write_text(str(version_int))
 
 version_major = version_int // 10000
 version_minor = (version_int // 100) % 100
-version_revision = version_int % 10000
+version_revision = version_int % 100
 
 version_str = f"v{version_major}"
 if version_minor > 0 or version_revision > 0:
