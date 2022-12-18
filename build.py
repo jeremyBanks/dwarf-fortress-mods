@@ -31,12 +31,12 @@ for (local_id, steam_id) in mods.items():
     mod_dev_info_path = mod_dev_path / "info.txt"
     mod_dev_info = mod_dev_info_path.read_text()
     mod_dev_info = re.sub(
-        r"NUMERIC_VERSION:\d+\]", f"NUMERIC_VERSION:{version_int}]", mod_dev_info
+        r"NUMERIC_VERSION:.*?\]", f"NUMERIC_VERSION:{version_int}]", mod_dev_info
     )
     mod_dev_info = re.sub(
-        r"DISPLAYED_VERSION:\d+\]", f"DISPLAYED_VERSION:{version_str}]", mod_dev_info
+        r"DISPLAYED_VERSION:.*?\]", f"DISPLAYED_VERSION:{version_str}]", mod_dev_info
     )
     mod_dev_info = re.sub(
-        r"STEAM_CHANGELOG:\d+\]", f"STEAM_CHANGELOG:{version_str}]", mod_dev_info
+        r"STEAM_CHANGELOG:.*?\]", f"STEAM_CHANGELOG:{version_str}]", mod_dev_info
     )
     mod_dev_info_path.write_text(mod_dev_info)
