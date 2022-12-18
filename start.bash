@@ -17,6 +17,7 @@ rm -rfv ../2903102268\ \(*\)
 rm -rfv ../2903304786\ \(*\)\
 rm -rfv ../../data/installed_mods/*
 
+declare version="$(cat version.txt)"
 cp -rv ./no_more_dead_dogs ../2901970561\ \($version\)
 cp -rv ./guinea_pigs ../2903102268\ \($version\)
 cp -rv ./cavia ../2903304786\ \($version\)
