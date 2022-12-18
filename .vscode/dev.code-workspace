@@ -18,8 +18,6 @@
 		}
 	],
 	"settings": {
-		"editor.wordWrap": "bounded",
-		"editor.wordWrapColumn": 80,
 		"editor.wrappingIndent": "indent",
 		"workbench.colorTheme": "Kimbie Dark"
 	}
