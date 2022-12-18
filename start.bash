@@ -2,12 +2,6 @@
 set -vxeuo pipefail; shopt -s inherit_errexit  compat"${BASH_COMPAT=42}"
 clear -x
 
-git status
-git add .
-git add --all
-git commit --no-edit --allow-empty-message --all || echo "nothing to commit"
-git status
-
 taskkill.exe /im "Dwarf Fortress.exe" /t /f || echo "not running"
 
 declare version="$(($(cat version.txt) + 1))"
@@ -19,6 +13,12 @@ rm -rfv ../2903304786\ \(*\)
 
 sed -i 's/VERSION:.*$/VERSION:'"$version"']/g' ./*/info.txt
 sed -i 's/STEAM_CHANGELOG:.*$/STEAM_CHANGELOG:v'"$version"']/g' ./*/info.txt
+
+git status
+git add .
+git add --all
+git commit --no-edit --allow-empty-message --all || echo "nothing to commit"
+git status
 
 rm -rfv ../../data/installed_mods/*
 
