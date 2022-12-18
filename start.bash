@@ -15,6 +15,7 @@ echo "$version" > version.txt
 
 rm -rfv ../2901970561\ \(*\)
 rm -rfv ../2903102268\ \(*\)
+rm -rfv ../2903304786\ \(*\)
 
 sed -i 's/VERSION:.*$/VERSION:'"$version"']/g' ./*/info.txt
 sed -i 's/STEAM_CHANGELOG:.*$/STEAM_CHANGELOG:v'"$version"']/g' ./*/info.txt
@@ -23,6 +24,7 @@ rm -rfv ../../data/installed_mods/*
 
 cp -rv ./no_more_dead_dogs ../2901970561\ \($version\)
 cp -rv ./guinea_pigs ../2903102268\ \($version\)
+cp -rv ./cavia ../2903304786\ \($version\)
 
 pushd ../../
     rm -rf gamelog.txt errorlog.txt stdout.txt stderr.txt
